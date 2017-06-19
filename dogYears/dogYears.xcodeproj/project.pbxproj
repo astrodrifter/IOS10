@@ -13,6 +13,7 @@
 		55520AB41EF7E4EB001F174D /* dogYears.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55520AB21EF7E4EB001F174D /* dogYears.xcdatamodeld */; };
 		55520AB61EF7E4EB001F174D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55520AB51EF7E4EB001F174D /* Assets.xcassets */; };
 		55520AB91EF7E4EB001F174D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55520AB71EF7E4EB001F174D /* LaunchScreen.storyboard */; };
+		55520AC11EF7EAEC001F174D /* Bonney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55520AC01EF7EAEC001F174D /* Bonney.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		55520AB51EF7E4EB001F174D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55520AB81EF7E4EB001F174D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55520ABA1EF7E4EB001F174D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55520AC01EF7EAEC001F174D /* Bonney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bonney.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				55520AAB1EF7E4EB001F174D /* AppDelegate.swift */,
 				55520AAD1EF7E4EB001F174D /* ViewController.swift */,
 				55520AAF1EF7E4EB001F174D /* Main.storyboard */,
+				55520AC01EF7EAEC001F174D /* Bonney.jpg */,
 				55520AB51EF7E4EB001F174D /* Assets.xcassets */,
 				55520AB71EF7E4EB001F174D /* LaunchScreen.storyboard */,
 				55520ABA1EF7E4EB001F174D /* Info.plist */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55520AC11EF7EAEC001F174D /* Bonney.jpg in Resources */,
 				55520AB91EF7E4EB001F174D /* LaunchScreen.storyboard in Resources */,
 				55520AB61EF7E4EB001F174D /* Assets.xcassets in Resources */,
 				55520AB11EF7E4EB001F174D /* Main.storyboard in Resources */,
