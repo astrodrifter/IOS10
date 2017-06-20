@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ageTextFeild: UITextField!
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBAction func submitPressed(_ sender: Any) {
+        //var age
+        print(ageTextFeild.text ?? "User instance is nil")
+    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
