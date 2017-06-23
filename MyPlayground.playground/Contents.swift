@@ -39,3 +39,28 @@ print(gameOver)
 var gameOverString = String(gameOver)
 print(gameOverString)
 
+// Array
+
+var array = [4,26,32]
+print(array[0])
+
+print(array.count)
+array.append(1)
+
+print(array)
+
+array.remove(at: 1)
+print(array)
+
+array.sort()
+print(array)
+
+array.append(array[0]*array[1])
+print(array)
+
+var menu = ["pizza": "12.99", "ice cream": "4.99", "salad": "7.99"]
+print(menu)
+
+print("the total cost of my meal = ", menu["pizza"]!, menu["salad"]!)
+
+
