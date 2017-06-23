@@ -12,6 +12,8 @@
 		C8EA20791D12A24300128B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EA20771D12A24300128B76 /* Main.storyboard */; };
 		C8EA207B1D12A24300128B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EA207A1D12A24300128B76 /* Assets.xcassets */; };
 		C8EA207E1D12A24300128B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EA207C1D12A24300128B76 /* LaunchScreen.storyboard */; };
+		C8EA20861D1323CD00128B76 /* hedgehog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8EA20851D1323CD00128B76 /* hedgehog.jpg */; };
+		C8EA20881D1326F200128B76 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C8EA20871D1326F200128B76 /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C8EA207A1D12A24300128B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8EA207D1D12A24300128B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8EA207F1D12A24300128B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EA20851D1323CD00128B76 /* hedgehog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hedgehog.jpg; sourceTree = "<group>"; };
+		C8EA20871D1326F200128B76 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C8EA20731D12A24300128B76 /* AppDelegate.swift */,
 				C8EA20751D12A24300128B76 /* ViewController.swift */,
 				C8EA20771D12A24300128B76 /* Main.storyboard */,
+				C8EA20851D1323CD00128B76 /* hedgehog.jpg */,
+				C8EA20871D1326F200128B76 /* cat.png */,
 				C8EA207A1D12A24300128B76 /* Assets.xcassets */,
 				C8EA207C1D12A24300128B76 /* LaunchScreen.storyboard */,
 				C8EA207F1D12A24300128B76 /* Info.plist */,
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EA20881D1326F200128B76 /* cat.png in Resources */,
 				C8EA207E1D12A24300128B76 /* LaunchScreen.storyboard in Resources */,
 				C8EA207B1D12A24300128B76 /* Assets.xcassets in Resources */,
+				C8EA20861D1323CD00128B76 /* hedgehog.jpg in Resources */,
 				C8EA20791D12A24300128B76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
