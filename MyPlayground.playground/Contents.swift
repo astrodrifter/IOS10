@@ -58,9 +58,9 @@ print(array)
 array.append(array[0]*array[1])
 print(array)
 
-var menu = ["pizza": "12.99", "ice cream": "4.99", "salad": "7.99"]
+var menu = ["pizza": 12.99, "ice cream": 4.99, "salad": 7.99]
 print(menu)
 
-print("the total cost of my meal = ", menu["pizza"]!, menu["salad"]!)
+print("the total cost of my meal = ", menu["pizza"]! + menu["salad"]!)
 
 
