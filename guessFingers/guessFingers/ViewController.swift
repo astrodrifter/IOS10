@@ -10,13 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var guessEntry: [UITextField]!
+    @IBOutlet weak var guessEntryTextFeild: UITextField!
     
-    @IBAction func guessEntry(_ sender: Any) {
+   
+    @IBAction func submitButton(_ sender: Any) {
         
+        let diceRoll = String(arc4random_uniform(6))
+        
+        
+        if diceRoll == guessEntryTextFeild.text {
+            resultLabel.text = "You're right!"
+            
+        } else {
+            resultLabel.text = "Sorry you are wrong."
+        }
     }
     
-    @IBOutlet var result: UIView!
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

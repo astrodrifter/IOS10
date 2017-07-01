@@ -43,6 +43,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="guessEntry:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="1Ba-GU-DVS"/>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ng1-UR-zEw"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfV-Pn-X8H">
@@ -51,7 +52,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yY-ED-WvL"/>
+                                    <action selector="submitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GvR-sQ-Ti3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess How Many Fingers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cK-63-eXK">
@@ -66,6 +67,8 @@
                     </view>
                     <connections>
                         <outlet property="result" destination="8bC-Xf-vdC" id="fBc-la-kvS"/>
+                        <outlet property="resultLabel" destination="unD-EB-D8e" id="P0T-5S-tqM"/>
+                        <outlet property="textfeild" destination="ZHx-bo-OGS" id="jbf-rR-GLA"/>
                         <outletCollection property="guessEntry" destination="ZHx-bo-OGS" collectionClass="NSMutableArray" id="Fla-Dx-SEo"/>
                     </connections>
                 </viewController>
